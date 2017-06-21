@@ -12,4 +12,4 @@ jobs:
           command: 'sudo npm install -g npm@latest'
       - run:
           name: install-npm
-          command: npm i
+          command: npm install
