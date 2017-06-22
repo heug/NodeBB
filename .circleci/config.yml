@@ -8,7 +8,7 @@ jobs:
     steps:
       - run:
           name: clear-cache
-          command: rm -rf ./node_modules && rm package.json
+          command: rm -rf ./node_modules
       - checkout
       - run:
           name: update-npm
